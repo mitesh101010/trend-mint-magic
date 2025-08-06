@@ -1,73 +1,70 @@
-# Welcome to your Lovable project
 
-## Project info
+# Trend Mint Magic
 
-**URL**: https://lovable.dev/projects/ca3cdc35-c6dc-449b-a2da-40ea56bb7d1f
+Trend Mint Magic is a modern web application for minting NFTs (Non-Fungible Tokens) on the Hedera Hashgraph network. It provides a seamless wallet connection experience, supports both testnet and mainnet, and offers user-friendly features for interacting with your Hedera account.
 
-## How can I edit this code?
+## Features
 
-There are several ways of editing your application.
+- **Wallet Connect:** Easily connect and disconnect your Hedera wallet.
+- **Network Support:** Switch between Hedera testnet and mainnet.
+- **Account Management:** Copy your account ID, view it in HashScan, and manage your wallet state.
+- **Custom Toast Notifications:** Get instant feedback for actions like connecting, disconnecting, and copying account IDs.
+- **Modern UI:** Clean, responsive interface built with React and TypeScript.
 
-**Use Lovable**
+## Getting Started
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/ca3cdc35-c6dc-449b-a2da-40ea56bb7d1f) and start prompting.
+### Prerequisites
 
-Changes made via Lovable will be committed automatically to this repo.
+- Node.js (v18 or higher recommended)
+- npm or yarn
 
-**Use your preferred IDE**
+### Installation
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/mitesh101010/nft-mint.git
+   cd nft-mint
+   ```
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+2. **Install dependencies:**
+   ```sh
+   npm install
+   # or
+   yarn install
+   ```
 
-Follow these steps:
+3. **Start the development server:**
+   ```sh
+   npm run dev
+   # or
+   yarn dev
+   ```
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+4. **Open the app:**
+   Visit [http://localhost:3000](http://localhost:3000) in your browser.
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## Usage
 
-# Step 3: Install the necessary dependencies.
-npm i
+- Connect your Hedera wallet using the provided UI.
+- Mint NFTs and manage your account.
+- Use the copy and explorer features for easy account management.
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+## Project Structure
 
-**Edit a file directly in GitHub**
+- `src/components/WalletConnect.tsx` – Main wallet connection logic and UI.
+- `public/` – Static assets.
+- `README.md` – Project documentation.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## Contributing
 
-**Use GitHub Codespaces**
+Contributions are welcome! Please open issues or submit pull requests for improvements and bug fixes.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## License
 
-## What technologies are used for this project?
+This project is licensed under the MIT License.
 
-This project is built with:
+## Acknowledgements
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/ca3cdc35-c6dc-449b-a2da-40ea56bb7d1f) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+- [Hedera Hashgraph](https://hedera.com/)
+- [React](https://react.dev/)
+- [HashPack Wallet](https://www.hashpack.app/)
